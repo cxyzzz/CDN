@@ -1,4 +1,4 @@
-<html><head></head><body>var CanvasParticle = (function(){
+var CanvasParticle = (function(){
 	function getElementByTag(name){
 		return document.getElementsByTagName(name);
 	}
