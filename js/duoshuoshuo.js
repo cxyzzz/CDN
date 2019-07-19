@@ -3,7 +3,7 @@ var OriginTitile = document.title;
  var titleTime;
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
-         $('[rel="icon"]').attr('href', "/images/favicon-16x16-next.png");
+         $('[rel="icon"]').attr('href', "/images/favicon-16x16.png");
          document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
          clearTimeout(titleTime);
      }
